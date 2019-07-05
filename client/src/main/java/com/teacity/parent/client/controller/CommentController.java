@@ -5,10 +5,9 @@ import com.jfinal.log.Log;
 import com.jfinal.plugin.activerecord.Record;
 import com.teacity.api.ShopService;
 import com.teacity.api.UserCommentService;
-import com.teacity.entity.model.Shop;
 import com.teacity.entity.status.AjaxResult;
-import com.teacity.parent.base.web.base.BaseController;
 import com.teacity.parent.client.interceptor.CodeInterceptor;
+import com.xyf.platform.base.web.base.BaseController;
 import io.jboot.core.rpc.annotation.JbootrpcService;
 import io.jboot.web.controller.annotation.RequestMapping;
 

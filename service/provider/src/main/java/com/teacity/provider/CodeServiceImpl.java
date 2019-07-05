@@ -1,9 +1,9 @@
 package com.teacity.provider;
 
 import com.jfinal.plugin.activerecord.Db;
-import io.jboot.aop.annotation.Bean;
 import com.teacity.api.CodeService;
 import com.teacity.entity.model.Code;
+import io.jboot.aop.annotation.Bean;
 import io.jboot.service.JbootServiceBase;
 
 import javax.inject.Singleton;

@@ -1,6 +1,7 @@
 package com.teacity.provider.ge;
 
-import com.teacity.parent.base.gencode.serviceimpl.AppServiceImplGenerator;
+
+import com.xyf.platform.base.gencode.serviceimpl.AppServiceImplGenerator;
 
 public class GenCode {
     public static void main(String[] args) {

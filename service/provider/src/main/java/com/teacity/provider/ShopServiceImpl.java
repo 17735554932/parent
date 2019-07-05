@@ -2,9 +2,9 @@ package com.teacity.provider;
 
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
-import io.jboot.aop.annotation.Bean;
 import com.teacity.api.ShopService;
 import com.teacity.entity.model.Shop;
+import io.jboot.aop.annotation.Bean;
 import io.jboot.service.JbootServiceBase;
 
 import javax.inject.Singleton;

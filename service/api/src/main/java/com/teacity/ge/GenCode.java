@@ -1,6 +1,7 @@
 package com.teacity.ge;
 
-import com.teacity.parent.base.gencode.service.AppServiceGenerator;
+
+import com.xyf.platform.base.gencode.service.AppServiceGenerator;
 
 public class GenCode {
 

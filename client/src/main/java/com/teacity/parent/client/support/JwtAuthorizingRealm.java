@@ -1,8 +1,8 @@
 package com.teacity.parent.client.support;
 
-import com.teacity.parent.base.common.CacheKey;
-import com.teacity.parent.base.plugin.jwt.shiro.JwtAuthenticationToken;
-import com.teacity.parent.base.plugin.shiro.ShiroCacheUtils;
+import com.xyf.platform.base.common.CacheKey;
+import com.xyf.platform.base.plugin.jwt.shiro.JwtAuthenticationToken;
+import com.xyf.platform.base.plugin.shiro.ShiroCacheUtils;
 import io.jboot.Jboot;
 import io.jboot.utils.StrUtils;
 import org.apache.shiro.authc.*;

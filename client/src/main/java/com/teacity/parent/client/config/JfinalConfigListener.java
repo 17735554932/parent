@@ -1,17 +1,17 @@
 package com.teacity.parent.client.config;
 
 import com.google.inject.Binder;
+import com.jfinal.captcha.CaptchaCache;
 import com.jfinal.captcha.CaptchaManager;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Interceptors;
 import com.jfinal.config.Routes;
 import com.jfinal.ext.handler.ContextPathHandler;
 import com.jfinal.template.Engine;
-import com.teacity.parent.base.captcha.CaptchaCache;
-import com.teacity.parent.base.common.AppInfo;
-import com.teacity.parent.base.interceptor.BusinessExceptionInterceptor;
-import com.teacity.parent.base.interceptor.NotNullParaInterceptor;
-import com.teacity.parent.base.web.render.AppRenderFactory;
+import com.xyf.platform.base.common.AppInfo;
+import com.xyf.platform.base.interceptor.BusinessExceptionInterceptor;
+import com.xyf.platform.base.interceptor.NotNullParaInterceptor;
+import com.xyf.platform.base.web.render.AppRenderFactory;
 import io.jboot.Jboot;
 import io.jboot.aop.jfinal.JfinalHandlers;
 import io.jboot.aop.jfinal.JfinalPlugins;

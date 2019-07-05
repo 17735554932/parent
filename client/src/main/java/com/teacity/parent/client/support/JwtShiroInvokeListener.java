@@ -2,8 +2,8 @@ package com.teacity.parent.client.support;
 
 import com.jfinal.core.Controller;
 import com.jfinal.log.Log;
-import com.teacity.parent.base.common.RestResult;
-import com.teacity.parent.base.plugin.jwt.shiro.JwtAuthenticationToken;
+import com.xyf.platform.base.common.RestResult;
+import com.xyf.platform.base.plugin.jwt.shiro.JwtAuthenticationToken;
 import io.jboot.component.jwt.JwtManager;
 import io.jboot.component.shiro.JbootShiroInvokeListener;
 import io.jboot.component.shiro.processer.AuthorizeResult;

@@ -4,12 +4,10 @@ import com.jfinal.aop.Before;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
 import com.jfinal.plugin.activerecord.tx.Tx;
-import com.teacity.entity.model.Code;
-import com.teacity.entity.model.UserLogin;
-import com.teacity.parent.base.util.IDUtils;
-import io.jboot.aop.annotation.Bean;
 import com.teacity.api.UserService;
 import com.teacity.entity.model.User;
+import io.jboot.aop.annotation.Bean;
+import io.jboot.core.rpc.annotation.JbootrpcService;
 import io.jboot.service.JbootServiceBase;
 
 import javax.inject.Singleton;
@@ -17,6 +15,7 @@ import java.util.Date;
 
 @Bean
 @Singleton
+@JbootrpcService
 public class UserServiceImpl extends JbootServiceBase<User> implements UserService {
     @Override
     public boolean updateUserInfo(String userId, String name, String age, String sex, String occupation) {

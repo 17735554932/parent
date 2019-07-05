@@ -2,11 +2,11 @@ package com.teacity.provider;
 
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
-import com.teacity.parent.base.util.IDUtils;
-import io.jboot.Jboot;
-import io.jboot.aop.annotation.Bean;
 import com.teacity.api.UserLoginService;
 import com.teacity.entity.model.UserLogin;
+import com.xyf.platform.base.util.IDUtils;
+import io.jboot.Jboot;
+import io.jboot.aop.annotation.Bean;
 import io.jboot.service.JbootServiceBase;
 
 import javax.inject.Singleton;

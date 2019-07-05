@@ -4,8 +4,8 @@ import com.jfinal.aop.Interceptor;
 import com.jfinal.aop.Invocation;
 import com.jfinal.log.Log;
 import com.teacity.entity.status.AjaxResult;
-import com.teacity.parent.base.common.CodeConsts;
-import com.teacity.parent.base.web.base.BaseController;
+import com.xyf.platform.base.common.CodeConsts;
+import com.xyf.platform.base.web.base.BaseController;
 import io.jboot.Jboot;
 
 /**

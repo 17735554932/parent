@@ -1,20 +1,13 @@
 package com.teacity.parent.client.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.jfinal.aop.Before;
-import com.teacity.parent.client.interceptor.CodeInterceptor;
-import io.jboot.web.controller.annotation.RequestMapping;
 
+import javax.websocket.*;
+import javax.websocket.server.PathParam;
+import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import javax.websocket.OnClose;
-import javax.websocket.OnError;
-import javax.websocket.OnMessage;
-import javax.websocket.OnOpen;
-import javax.websocket.Session;
-import javax.websocket.server.PathParam;
-import javax.websocket.server.ServerEndpoint;
 
 //@Before(CodeInterceptor.class)
 @ServerEndpoint(value ="/newwebsocket/{userId}")
